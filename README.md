@@ -1,4 +1,4 @@
-# IonProject
+# Sample login logout flow Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.2.
 
@@ -34,6 +34,9 @@ I have used ngbootstrap to integrated bootstrap component
 
 ## Project work flow
 
+After downloading project for go to project folder and run npm install 
+Start project using 'ng serve'
+In browser rum http://localhost:4200/
 Start project using 'ng serve'
 unit test using 'ng test'
 
