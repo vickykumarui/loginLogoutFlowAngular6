@@ -1,0 +1,36 @@
+<div class="container container-wrapper">
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <h2 class="centerAilgn">Welcome to App.</h2>
+      <p class="centerAilgn"> Login to explore more books</p>
+      <ngb-carousel>
+        <ng-template ngbSlide>
+          <img src="/assets/images/fiction/book1.jpg" class="imageInheritWidth" alt="Random first slide">
+          <div class="carousel-caption">
+            <h3>Fictional books</h3>
+            <p>Collection of fictional books.</p>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <img src="/assets/images/technology/book1.jpg" class="imageInheritWidth" alt="Random second slide">
+          <div class="carousel-caption">
+            <h3>Technology books</h3>
+            <p>Collection of technology books.</p>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <img src="/assets/images/sports/book1.jpg" class="imageInheritWidth" alt="Random third slide">
+          <div class="carousel-caption">
+            <h3>Sports books</h3>
+            <p>Collection of sports books.</p>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+      <div class="clearfix"></div>
+      <div class="text-center paddingTop10">
+        <button type="button" class="btn btn-primary" (click)="goToLogin()">Go to Login</button>
+      </div>
+    </div>
+  </div>
+</div>

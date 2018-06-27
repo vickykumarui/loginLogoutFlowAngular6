@@ -1,0 +1,41 @@
+#spiny-overlay-conatiner {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.spinny-overlay {
+	position: absolute;
+	z-index: -9999;
+	width: 100%;
+	height: 2000px;
+	background: black;
+	opacity: 0.3;
+	left: 0;
+	right: 0;
+}
+.overlay-banner {
+    background: white;
+    border-radius: 5px;
+    max-width:165px;
+    height: 180px;
+	padding: 30px;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	position: absolute;
+    box-shadow: 0 2px 5px 0  rgba(0, 0, 0, 0.3);
+    margin: 60% auto 0;
+}
+
+@media (min-width: 600px){
+    .overlay-banner {
+         margin: 17% 33%;
+    }
+}
+
+#spinnny h5 {
+	padding-top: 10px;
+	color: black;
+}

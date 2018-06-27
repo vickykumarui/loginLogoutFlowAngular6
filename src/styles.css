@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/bootstrap.min.css';
+
+.imageInheritWidth{
+    width: inherit;
+    height: 400px;
+}
+
+.centerAilgn{
+    text-align: center;
+}
+
+.paddingTop10{
+    padding-top: 10px
+}
+
+.text-center {
+    text-align: center;
+}

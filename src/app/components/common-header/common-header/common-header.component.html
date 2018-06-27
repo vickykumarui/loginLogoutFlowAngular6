@@ -1,0 +1,15 @@
+<div class="container container-wrapper headerMainClass">
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-sm-6">
+          {{status}}
+        </div>
+        <div *ngIf="status.indexOf('Logged in') !== -1" class="col-sm-6">
+          <button (click)="logout()">Logout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

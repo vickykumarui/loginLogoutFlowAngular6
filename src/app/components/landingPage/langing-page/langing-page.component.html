@@ -1,0 +1,32 @@
+<div class="container">
+  <div>
+    <p>Below is the list of books of different generes</p>
+  </div>
+  <div class="row">
+    <div class="col" *ngFor="let tech of technologyBooks">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" [src]="tech.src" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">{{tech.desciption}}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col" *ngFor="let fict of fictionBooks">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" [src]="fict.src" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">{{fict.desciption}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="col" *ngFor="let sport of sportsBooks">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" [src]="sport.src" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">{{sport.desciption}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
